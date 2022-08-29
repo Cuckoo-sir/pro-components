@@ -1,7 +1,7 @@
 {
-  "name": "@ant-design/address-card",
+  "name": "@miner-mobile/address-card",
   "version": "1.2.4",
-  "description": "@ant-design/address-card",
+  "description": "@miner-mobile/address-card",
   "license": "MIT",
   "author": "刘强 <liuqiang01@dongfangfuli.com>",
   "sideEffects": [

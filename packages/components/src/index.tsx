@@ -1,3 +1,3 @@
-export * from '@ant-design/address-card';
+export * from '@miner-mobile/address-card';
 // @ts-ignore
 export * from './version';

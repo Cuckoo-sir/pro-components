@@ -1,12 +1,10 @@
 {
-  "name": "@ant-design/pro-components",
+  "name": "@miner-mobile/components",
   "version": "1.1.20",
-  "description": "@ant-design/pro-components",
+  "description": "@miner-mobile/components",
   "keywords": [
-    "antd",
-    "admin",
-    "ant-design",
-    "ant-design-pro"
+    "components",
+    "miner-mobile"
   ],
   "homepage": "https://github.com/ant-design/pro-components/tree/master/packages/components#readme",
   "bugs": "https://github.com/ant-design/pro-components/issues",

@@ -1,5 +1,5 @@
 import React from 'react';
-import AddressCard from '@ant-design/address-card';
+import AddressCard from '@miner-mobile/address-card';
 import './index.less';
 
 export default () => {

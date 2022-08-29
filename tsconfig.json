@@ -14,8 +14,8 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@ant-design/address-card": ["./packages/address-card"],
-      "@ant-design/pro-components": ["./packages/components/src/index.tsx"]
+      "@miner-mobile/address-card": ["./packages/address-card"],
+      "@miner-mobile/components": ["./packages/components/src/index.tsx"]
     }
   },
   "include": [
