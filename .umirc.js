@@ -91,13 +91,6 @@ export default {
     ['en-US', 'English'],
   ],
   navs: {
-    'en-US': [
-      null,
-      {
-        title: 'GitHub',
-        path: 'https://github.com/ant-design/pro-components',
-      },
-    ],
     'zh-CN': [
       null,
       {
