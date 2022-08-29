@@ -2,12 +2,13 @@
  * @ Author: liuqiang01@dongfangfuli.com
  * @ Create Time: 2022-08-05 16:58:04
  * @ Modified by: liuqiang01@dongfangfuli.com
- * @ Modified time: 2022-08-18 14:21:38
+ * @ Modified time: 2022-08-29 19:58:35
  * @ Description:
  */
 
-import React, { FC } from 'react';
-import { AddressCardProps } from './type';
+import type { FC } from 'react';
+import React from 'react';
+import type { AddressCardProps } from './type';
 import './index.less';
 import location from './assets/location.png';
 import arrows_1 from './assets/arrows_1.png';
