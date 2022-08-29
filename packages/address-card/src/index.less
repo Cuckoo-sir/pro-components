@@ -1,0 +1,118 @@
+/**
+ * @ Author: liuqiang01@dongfangfuli.com
+ * @ Create Time: 2022-08-05 16:58:03
+ * @ Modified by: liuqiang01@dongfangfuli.com
+ * @ Modified time: 2022-08-23 17:35:44
+ * @ Description:
+ */
+
+.dffl-m {
+  width: 100vw;
+  padding: 15 5px;
+  &-address-desc {
+    display: flex;
+    padding: 15px 10px;
+    background-color: white;
+    border-radius: 4px;
+    &-icon {
+      display: flex;
+      justify-content: center;
+      margin-right: 5px;
+      & > img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &-content {
+      width: calc(100vw - 39px);
+      &-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-title {
+          display: flex;
+          color: #333333;
+          font-weight: 500;
+          font-size: 16px;
+          &-phone {
+            width: 102px;
+            height: 22px;
+            margin-left: 12px;
+            color: #333333;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+
+    &-address {
+      display: -webkit-box;
+      height: 42px;
+      margin-top: 5px;
+      overflow: hidden;
+      color: #333333;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      text-overflow: ellipsis;
+      word-break: break-all;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2; /* 这里是超出几行省略 */
+    }
+  }
+
+  &-address {
+    width: 100%;
+    padding: 15px 5px;
+  }
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    &-content {
+      display: flex;
+      align-items: center;
+      &-icon {
+        height: 30px;
+        margin-right: 5px;
+        & > img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      &-addrerss {
+        display: -webkit-box;
+        max-width: 288px;
+        overflow: hidden;
+        color: #333333;
+        font-weight: 500;
+        font-size: 16px;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; /* 这里是超出几行省略 */
+      }
+    }
+    &-more {
+      & > img {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+  &-footer {
+    margin-top: 5px;
+    margin-left: 35px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    & > span:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+}

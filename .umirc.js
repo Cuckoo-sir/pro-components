@@ -16,6 +16,8 @@ const alias = pkgList.reduce((pre, pkg) => {
   };
 }, {});
 
+alias['@'] = join(__dirname, 'src');
+
 console.log(`🌼 alias list \n${chalk.blue(Object.keys(alias).join('\n'))}`);
 
 const tailPkgList = pkgList
@@ -120,85 +122,8 @@ export default {
   menus: {
     '/components': [
       {
-        title: '架构设计',
-        children: ['components.md', 'schema.md'],
-      },
-      {
         title: '布局',
-        children: [
-          'layout',
-          'components/PageContainer/index',
-          'card',
-          'components/WaterMark/index',
-          'components/StatisticCard/index',
-          'components/CheckCard/index',
-        ],
-      },
-      {
-        title: '数据录入',
-        children: [
-          'form',
-          'components/FieldSet/index',
-          'components/Group/index',
-          'components/Dependency/index',
-          'components/SchemaForm/index',
-          'components/QueryFilter/index',
-          'components/StepsForm/index',
-          'components/ModalForm/index',
-          'components/LoginForm/index',
-        ],
-      },
-      {
-        title: '数据展示',
-        children: [
-          'table',
-          'components/EditableTable/index',
-          'components/DragSortTable/index',
-          'list',
-          'description',
-        ],
-      },
-      {
-        title: '通用',
-        children: ['skeleton', 'field'],
-      },
-    ],
-    '/en-US/components': [
-      {
-        title: 'Architecture Design',
-        children: ['components.en-US.md'],
-      },
-      {
-        title: 'Layout',
-        children: [
-          'layout',
-          'components/PageContainer/index',
-          'components/DragSortTable/index',
-          'list',
-          'card',
-        ],
-      },
-      {
-        title: 'Data entry',
-        children: [
-          'form',
-          'components/FieldSet/index',
-          'components/Group/index',
-          'components/Dependency/index',
-          'components/SchemaForm/index',
-          'components/QueryFilter/index',
-          'components/StepsForm/index',
-          'components/ModalForm/index',
-          'components/LoginForm/index',
-        ],
-      },
-      {
-        title: 'Data Display',
-        children: ['table', 'components/EditableTable/index', 'list', 'description'],
-      },
-      {
-        title: 'General',
-        children: ['skeleton', 'field'],
+        children: ['address-card'],
       },
     ],
   },

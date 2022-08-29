@@ -1,0 +1,36 @@
+{
+  "name": "@ant-design/address-card",
+  "version": "1.2.4",
+  "description": "@ant-design/address-card",
+  "license": "MIT",
+  "author": "刘强 <liuqiang01@dongfangfuli.com>",
+  "sideEffects": [
+    "*.less",
+    "*.css"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist",
+    "es"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.18.6"
+  },
+  "peerDependencies": {
+    "antd-mobile": ">=5.18.0",
+    "react": ">=16.14.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://npm.dongfangfuli.com/"
+  }
+}
