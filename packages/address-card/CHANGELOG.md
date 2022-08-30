@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.5 (2022-08-30)
+
+### Bug Fixes
+
+- 第一次提交 ([5cdd682](https://github.com/Cuckoo-sir/pro-components/commit/5cdd6821e34171ba9977051ae19968d556dd9d89))
+- 提交 ([5daf230](https://github.com/Cuckoo-sir/pro-components/commit/5daf230fd47a94e7acde9f6011182644149a8980))
+- test ([a29c910](https://github.com/Cuckoo-sir/pro-components/commit/a29c91049fe80ecba2c578e152c50bc6ab64c762))
+- test build ([74522cc](https://github.com/Cuckoo-sir/pro-components/commit/74522cc1ee7d4c98a8993181a189ecb020c9ed20))
+
 ## [1.2.4](https://gitlab.psf-dev.com/frontend/dffl-components-h5/compare/@dffl-m/address-card@1.2.3...@dffl-m/address-card@1.2.4) (2022-08-24)
 
 ### Bug Fixes

@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2022-08-30)
+
+### Bug Fixes
+
+- 第一次提交 ([5cdd682](https://github.com/ant-design/pro-components/commit/5cdd6821e34171ba9977051ae19968d556dd9d89))
+- 提交 ([5daf230](https://github.com/ant-design/pro-components/commit/5daf230fd47a94e7acde9f6011182644149a8980))
+- test ([a29c910](https://github.com/ant-design/pro-components/commit/a29c91049fe80ecba2c578e152c50bc6ab64c762))
+- **components:** add antd version dependencies ([aa5fd10](https://github.com/ant-design/pro-components/commit/aa5fd107e9d18a7493af1c88f8d4fac955a815db))
+- **form:** ProFormCheckBox support readonly lable ([ea574c4](https://github.com/ant-design/pro-components/commit/ea574c4d0206f70956a0a2009ba28722716a2ae3))
+
+### Features
+
+- **components:** add @ant-design/pro-component ([#5258](https://github.com/ant-design/pro-components/issues/5258)) ([a524391](https://github.com/ant-design/pro-components/commit/a524391aca28b09265097bcbf555fd1261e1e757))
+
 ## [1.1.20](https://github.com/ant-design/pro-components/compare/@ant-design/pro-components@1.1.19...@ant-design/pro-components@1.1.20) (2022-08-26)
 
 **Note:** Version bump only for package @ant-design/pro-components
