@@ -32,6 +32,7 @@ export default {
   title: 'miner-mobile',
   mode: 'site',
   logo: 'https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg',
+  outputPath: 'dist/components',
   extraBabelPlugins: [
     [
       'import',
@@ -84,7 +85,6 @@ export default {
       },
     ],
   },
-  ssr: isDeploy ? {} : undefined,
   webpack5: {},
   exportStatic: {},
   mfsu: !isDeploy ? {} : undefined,

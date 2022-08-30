@@ -31,6 +31,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "http://npm.dongfangfuli.com/"
+    "registry": "https://registry.npmjs.org"
   }
 }

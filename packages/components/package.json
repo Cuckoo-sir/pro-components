@@ -39,7 +39,8 @@
     "react-dom": ">=16.9.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "authors": [
     "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)",
